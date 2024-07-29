@@ -1,6 +1,11 @@
 const chai = require('chai');
 const assert = chai.assert;
-
+suite(''Unit Tests', function () {
+suite('Basic Asertions', function () {
+test('#isNull, #isNotNull', function () {
+assert.fail(null, '1 is not null');
+});
+  
 suite('Unit Tests', function () {
   suite('Basic Assertions', function () {
     // #1
